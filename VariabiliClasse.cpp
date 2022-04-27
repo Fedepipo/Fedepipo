@@ -12,7 +12,8 @@ public:
     }
 
     void print() {
-        cout << "a = " << a << ", b = " << b << endl;
+        cout << "a = " << a << ", b = " << b << ", address(a) = " << &a << ", address(b) = " << &b << endl;
+        //L'indirizzo di a cambia, quello di b rimane lo stesso
     }
 };
 
