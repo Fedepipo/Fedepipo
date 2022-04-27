@@ -5,7 +5,7 @@ class A {
     int a = 0;
 
 public:
-    static int b;
+    static int b; //Va dichiarata qui
 
     A() {
         b++;
@@ -17,7 +17,7 @@ public:
     }
 };
 
-int A::b = 0;
+int A::b = 0; //Va inizializzata qui
 
 int main() {
     A a1;
